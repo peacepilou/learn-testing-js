@@ -1,0 +1,1 @@
+const isPalindrome = require('../src/algo2_isPalindrome');

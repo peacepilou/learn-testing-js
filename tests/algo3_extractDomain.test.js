@@ -1,0 +1,1 @@
+const extractDomain = require('../src/algo3_extractDomain');

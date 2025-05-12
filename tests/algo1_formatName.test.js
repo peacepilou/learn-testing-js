@@ -1,0 +1,1 @@
+const formatName = require('../src/algo1_formatName');
