@@ -1,11 +1,11 @@
 # Tests End-to-End (E2E) avec Angular & Cypress
 
 
-Tu dois tester un parcours utilisateur réel, par exemple :
+Tu dois tester un parcours utilisateur réel. 
 
-- L’utilisateur remplit un formulaire
-- Il clique sur un bouton
-- Il est redirigé, ou un message s’affiche
-- L’état de l’application change
+- L’utilisateur ajoute un produit au panier
+- Pour ça il clique sur le bouton
+- Le produit est ajouté à la liste des produits
+- Le header change bien l'affichage
 
-C’est **le niveau de test le plus proche du réel** : il teste toute l'application **depuis le front jusqu’au backend (si branché)**.
+C’est **le niveau de test le plus proche du réel**. Bon ici on ne teste pas avec un backend, donc c'est un test E2E scopé frontend, mais ça te donne une bonne idée d'un test E2E dirigé par l'UI sur un parcours utilisateur 🤙
