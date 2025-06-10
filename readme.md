@@ -27,11 +27,16 @@ Consignes de tests :
 
 
 ## Algo 5 - CalculateBMI
-Étapes :
- 1.	Lire les 3 tests initiaux déjà écrits
- 2.	Écrire le code minimal pour les faire passer
- 3.	Ajouter progressivement d’autres tests
- 4.	Évoluer le code petit à petit (Red → Green → Refactor)
+Spécifications pour les tests de la fonction calculateBMI à faire en TDD :
+
+1. La fonction doit retourner la valeur correcte de l’IMC pour des entrées valides(poids en kg, taille en mètres).
+2. Elle doit gérer les cas standards(ex : 70kg, 1.75m)
+3. Elle doit gérer les cas limites, comme des poids ou tailles très faibles ou très élevés.
+4. Si le poids ou la taille est nul, négatif ou non numérique, la fonction doit retourner NaN.
+5. Si un ou plusieurs arguments sont manquants, la fonction doit retourner NaN.
+6. La fonction ne doit pas lancer d’exception pour des entrées invalides, mais retourner NaN.
+7. Les résultats doivent être cohérents avec la formule IMC = poids / (taille * taille).
+
 
 
 ## Pour lancer les tests : 
